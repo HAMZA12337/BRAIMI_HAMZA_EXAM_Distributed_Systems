@@ -1,0 +1,22 @@
+<div class="container p-5">
+    <table class="table" *ngIf="keynotes">
+      <thead>
+      <tr>
+        <th>Nom</th> <th>Prenom</th> <th>gmail</th> <th>Function</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of keynotes._embedded.wallets">
+          <td>{{p.name}}</td>
+          <td>{{p.surname}}</td>
+          <td>{{p.gmail}}</td>
+          <td>{{p.function}}</td>
+          <td>
+            <button class="btn btn-success" (click)="getConference(p)">get his client</button>
+          </td>
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div> 

@@ -1,6 +1,6 @@
 # Exam :
 
-### BRAIMI HAMZA  ---> BDCC STUDENT 
+<p align="center"> BRAIMI HAMZA  ---> BDCC STUDENT </p>
 
 ## 📚Prerequisite
 
